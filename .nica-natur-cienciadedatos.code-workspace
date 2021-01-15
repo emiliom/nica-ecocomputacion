@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../quantecon-mini-example"
+		}
+	],
+	"settings": {}
+}

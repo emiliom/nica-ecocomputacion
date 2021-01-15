@@ -1,0 +1,22 @@
+name: nica_natur_jb
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.8
+  - jedi<0.18.0 # https://github.com/ipython/ipython/issues/12740
+  - ipykernel
+  - sphinx
+  - pandas
+  - geopandas
+  - descartes
+  - mapclassify
+  - xarray
+  - matplotlib
+  - seaborn
+  - folium
+  - cartopy
+  - contextily
+  - pip
+  - pip:
+    - jupyter-book
