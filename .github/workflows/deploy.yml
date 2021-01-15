@@ -1,10 +1,13 @@
 name: deploy
 
+# Trigger the workflow on push or PR to master branch
 on:
-  # Trigger the workflow on push to main branch
   push:
     branches:
-      - main
+    - master
+  pull_request:
+    branches:
+    - master
 
 # This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
@@ -22,14 +25,23 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
+
+    # Set up Miniconda with environment
+    - name: Setup Miniconda
+      uses: goanpeca/setup-miniconda@v1.1.2
+      with:
+        environment-file: environment.yml
+        activate-environment: nica_natur_jb
+        python-version: ${{ matrix.python-version }}
+        auto-activate-base: false
+    # - name: Install dependencies
+    #   run: |
+    #     pip install -r requirements.txt
 
     # Build the book
     - name: Build the book
       run: |
-        jupyter-book build nicacuadernos
+        jupyter-book build libro
 
     # Deploy the book's HTML to gh-pages branch
     - name: GitHub Pages action
