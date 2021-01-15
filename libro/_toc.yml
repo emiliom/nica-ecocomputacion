@@ -1,8 +1,9 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 - file: intro
-- file: content
+- file: cuadernos
   sections:
-    - file: markdown
     - file: notebooks/notebooks
     - file: notebooks/LagoNicaraguaNiveles_altimetro
+- file: jupyter_y_python
+- file: markdown
