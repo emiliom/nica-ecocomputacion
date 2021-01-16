@@ -28,7 +28,7 @@ jobs:
 
     # Set up Miniconda with environment
     - name: Setup Miniconda
-      uses: goanpeca/setup-miniconda@v1.1.2
+      uses: conda-incubator/setup-miniconda@v2
       with:
         environment-file: environment.yml
         activate-environment: nica_natur_jb
