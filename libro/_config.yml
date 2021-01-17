@@ -21,9 +21,9 @@ html:
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
-  baseurl: https://emiliom.github.io/nica-natur-cienciadedatos/
+  baseurl: https://emiliom.github.io/nica-ecocomputacion/
 
 repository:
-  url: https://github.com/emiliom/nica-natur-cienciadedatos
+  url: https://github.com/emiliom/nica-ecocomputacion
   branch: master
   path_to_book: libro

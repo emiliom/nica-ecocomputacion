@@ -1,13 +1,13 @@
 name: deploy
 
 # Trigger the workflow on push or PR to master branch
-on:
-  push:
-    branches:
-    - master
-  pull_request:
-    branches:
-    - master
+# on:
+#   push:
+#     branches:
+#     - master
+#   pull_request:
+#     branches:
+#     - master
 
 # This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
