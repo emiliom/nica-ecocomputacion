@@ -5,10 +5,10 @@
 
 #######################################################################################
 # Book settings
-title                       : ""  # The title of the book. Will be placed in the left navbar.
-author                      : Emilio Mayorga  # The author of the book
-copyright                   : "2021"  # Copyright year to be placed in the footer
-logo                        : imagenes/EVIMap_MonthlyClimatology_April_70pct.jpeg  # A path to the book logo
+title: "Nica EcoComputación"  # The title of the book. Will be placed in the left navbar.
+author: Emilio Mayorga
+copyright: "2021"  # Copyright year to be placed in the footer
+logo: imagenes/EVIMap_MonthlyClimatology_April_70pct.jpeg  # A path to the book logo
 description: >-
   Datos y computacion ambiental de Nicaragua
 
@@ -16,6 +16,7 @@ parse:
   myst_extended_syntax: true
 
 html:
+  favicon: imagenes/favicon1.ico
   home_page_in_navbar: false
   use_edit_page_button: true
   use_repository_button: true
