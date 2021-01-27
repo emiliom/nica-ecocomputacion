@@ -4,9 +4,9 @@
 
 - part: Cuadernos
   chapters:
-  - file: notebooks/notebooks
+  - file: cuadernos/notebooks
     title: Cuaderno ilustrativo
-  - file: notebooks/LagoNicaraguaNiveles_altimetro
+  - file: cuadernos/LagoNicaraguaNiveles_altimetro
 
 - part: Recursos
   chapters:
