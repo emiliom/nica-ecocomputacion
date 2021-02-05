@@ -5,7 +5,7 @@
 
 #######################################################################################
 # Book settings
-title: "Nica EcoComputación"  # The title of the book. Will be placed in the left navbar.
+title: "Nica EcoComputación"  # The title of the book
 author: Emilio Mayorga
 copyright: "2021"  # Copyright year to be placed in the footer
 logo: imagenes/EVIMap_MonthlyClimatology_April_70pct.jpeg  # A path to the book logo
@@ -16,14 +16,19 @@ parse:
   myst_extended_syntax: true
 
 html:
+  baseurl: https://emiliom.github.io/nica-ecocomputacion/
   favicon: imagenes/favicon1.ico
   home_page_in_navbar: false
+  extra_navbar: ""
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
-  baseurl: https://emiliom.github.io/nica-ecocomputacion/
 
 repository:
   url: https://github.com/emiliom/nica-ecocomputacion
   branch: master
   path_to_book: libro
+
+sphinx:
+  config:
+    language: es
