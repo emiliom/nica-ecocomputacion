@@ -32,3 +32,7 @@ Algunos recursos en español. Tambien abarca Anaconda y entornos virtuales
 - [Traducción al español de Ecología con Python, una lección de Data Carpentry](https://carpentries.org/blog/2019/01/python-ecologia-es/)
 - [Análisis y visualización de datos usando Python - Data Carpentry](https://datacarpentry.org/python-ecology-lesson-es/)
 - [Primera experiencia traduciendo lecciones online dentro de la CarpentryCon@HOME - Carpentries](https://carpentries.org/blog/2020/08/Hablamos/)
+
+## Otros
+
+- [Introducción a la ciencia de datos - CIDE](https://rafneta.github.io/CienciaDatosPythonCIDE/intro.html). Enero 2021. Incluye excelentes introducciones a Python, Anaconda, y Jupyter.
