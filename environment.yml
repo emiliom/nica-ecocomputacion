@@ -21,3 +21,4 @@ dependencies:
   - pip:
     - jupyter-book
     - ghp-import
+    - lakepy
