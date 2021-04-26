@@ -12,9 +12,6 @@ logo: imagenes/EVIMap_MonthlyClimatology_April_70pct.jpeg  # A path to the book 
 description: >-
   Datos y computacion ambiental de Nicaragua
 
-parse:
-  myst_extended_syntax: true
-
 html:
   baseurl: https://emiliom.github.io/nica-ecocomputacion/
   favicon: imagenes/favicon1.ico
@@ -32,3 +29,15 @@ repository:
 sphinx:
   config:
     language: es
+
+# General execution settings
+only_build_toc_files: true
+
+parse:
+  myst_extended_syntax: true
+
+execute:
+  execute_notebooks: auto
+  exclude_patterns:
+    # Cuadernos en desarrollo
+    - '_desar_*'
